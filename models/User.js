@@ -11,8 +11,8 @@ const UserSchema = new Schema({
   friends: []
 });
 
-// create the Pizza model using the PizzaSchema
+// create the User model using the UserSchema
 const User = model('User', UserSchema);
 
-// export the Pizza model
+// export the User model
 module.exports = User;
