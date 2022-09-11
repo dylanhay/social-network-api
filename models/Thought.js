@@ -11,13 +11,6 @@ const ThoughtSchema = new Schema({
   username: {
     type: String
   },
-  // username: [
-  //   {
-  //     type: Schema.Types.ObjectId,
-  //     ref: "User",
-  //   },
-  // ],
-  reactions: []
 });
 
 const Thought = model('Thought', ThoughtSchema);
