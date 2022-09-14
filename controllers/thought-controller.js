@@ -18,6 +18,23 @@ const thoughtController = {
         res.status(400).json(err);
       });
   },
+
+    // get one thought by id
+    getThoughtById({ params }, res) {
+      Thought.findOne({ _id: params.id })
+        .select("-__v")
+        .then((dbUserData) => {
+          if (!dbUserData) {
+            res.status(404).json({ message: "No thought found with this id!" });
+            return;
+          }
+          res.json(dbUserData);
+        })
+        .catch((err) => {
+          console.log(err);
+          res.status(400).json(err);
+        });
+    },
   
   // add thought
   addThought({ params, body }, res) {
