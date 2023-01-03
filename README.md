@@ -3,9 +3,15 @@
 ## Description
 API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list
 
+## License  
+This application is covered under the following license. Please review the link below for additional information pertaining to the license.
+    
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)  
+https://www.gnu.org/licenses/gpl-3.0
+
 ## Table of Contents
 [Built With](#built-with)  
-[Installation Instructions](#installation-instructions)  
+[Installation](#installation)  
 [Walkthrough Video](#walkthrough-video)  
 [Contribution](#contribution)  
 
@@ -14,21 +20,17 @@ API for a social network web application where users can share their thoughts, r
 * Node.js
 * Express.js
 * MongoDB
-* Mongoose ODM
+* Mongoose
+* Git
+* Insomnia
 
-## Installation Instructions
-npm, Node.js, Express.js, MongoDB and Mongoose ODM must be installed to run this application locally.
-
-* To initialize npm, enter "npm init" in terminal while in the root folder of the project
-* Node.js can be downloaded and installed from https://nodejs.org/en/download/  
-* MongoDB can be downloaded and installed from https://www.mongodb.com/docs/manual/administration/install-community/
-* To install Express.js enter "npm install express" in terminal while in the root folder of the project
-* To install the Mongoose package, enter "npm install mongoose" in terminal while in the root folder of the project
-
-Once the above steps have been followed, enter "npm start" in terminal to run the application
+## Installation
+To run locally once cloned:
+* Enter `npm install` in the CLI to install the required npm packages
+* Enter `npm start` in the CLI to launch live server
 
 ## Walkthrough Video
 https://drive.google.com/file/d/1BKILEPMF_TmyDFQIWBrxAEqyURYllsTL/view
 
 ## Contribution
-Made with ❤️ by Dylan Hay
+Built by Dylan Hay
